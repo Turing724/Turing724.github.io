@@ -4,3 +4,7 @@
 
 1. [如何监听一个对象的变化](https://github.com/Turing724/Turing724.github.io/issues/2)
 2. [Vue.js 运行机制全局概览-思维导图](https://github.com/Turing724/Turing724.github.io/issues/3)
+
+
+# 问题总结
+1. [styled-components4.X弃用'injectGlobal'API](https://github.com/Turing724/Turing724.github.io/issues/4)
