@@ -2,131 +2,163 @@
 <html lang="zh-cn">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Bootstrap 101 Template</title>
+  <meta charset="utf-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
-    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link
+    href="lib/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        html,
-        body {
-            height: 100%;
-        }
-        
-        .my_panel {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            margin: 0;
-        }
-        
-        .panel-footer input {
-            width: 100%;
-        }
-        
-        .panel-heading {
-            flex: 1;
-            display: flex;
-            align-items: center;
-        }
-        
-        .panel-heading h3 {}
-        
-        .main {
-            flex: 20;
-            overflow-y: scroll;
-        }
-        
-        .main-con {}
-        
-        .panel-footer {
-            flex: 2;
-            /*padding-top: 0;
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    .my_panel {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 0;
+    }
+
+    .panel-footer input {
+      width: 100%;
+    }
+
+    .panel-heading {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .panel-heading h3 {}
+
+    .main {
+      flex: 20;
+      overflow-y: scroll;
+    }
+
+    .main-con {}
+
+    .panel-footer {
+      flex: 2;
+      /*padding-top: 0;
             padding-bottom: 0;*/
-        }
-        
-        img {
-            width: 50px;
-            height: 50px;
-        }
-        
-        .media .self {
-            text-align: right;
-        }
-        
-        .media h4 {
-            font-size: 16px;
-            color: yellowgreen;
-        }
-        
-        .my_content {
-            height: 30px;
-            border: 1px solid #000;
-            border-color: yellowgreen;
-            margin-bottom: 5px;
-        }
-    </style>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--  html5shiv  html5新语义标签 兼容性 -->
-    <!--[if lt IE 9]><script src='https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js'></script><script src='https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js'></script><![endif]-->
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .media .self {
+      text-align: right;
+    }
+
+    .media h4 {
+      font-size: 16px;
+      color: yellowgreen;
+    }
+
+    .my_content {
+      height: 30px;
+      border: 1px solid #000;
+      border-color: yellowgreen;
+      margin-bottom: 5px;
+    }
+
+  </style>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--  html5shiv  html5新语义标签 兼容性 -->
+  <!--[if lt IE 9]><script src='https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js'></script><script src='https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js'></script><![endif]-->
 </head>
 
 <body>
-    <div class="my_panel panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">正在和小兔子聊天..</h3>
+  <div class="my_panel panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">正在和小兔子聊天..</h3>
+    </div>
+    <div class="main panel-body">
+      <div class="main-con">
+        <div
+          class="chat media "
+          style="display:none"
+        >
+          <div class="media-left">
+            <a href="#">
+              <img
+                class="media-object"
+                src="images/mm.jpg"
+                alt="..."
+              >
+            </a>
+          </div>
+          <div class="chatRobot media-body">
+            <h4 class="media-heading">T.🌈</h4>
+            <p>你好啊</p>
+          </div>
         </div>
-        <div class="main panel-body">
-            <div class="main-con">
-                <div class="chat media " style="display:none">
-                    <div class="media-left">
-                        <a href="#">
-                            <img class="media-object" src="images/mm.jpg" alt="...">
-                        </a>
-                    </div>
-                    <div class="chatRobot media-body">
-                        <h4 class="media-heading">T.🌈</h4>
-                        <p>你好啊</p>
-                    </div>
-                </div>
-                <div class="self user media " style="display:none">
-                    <div class="self media-body">
-                        <h4 class="media-heading">我</h4>
-                        <p>你好</p>
-                    </div>
-                    <div class="media-right">
-                        <a href="#">
-                            <img class="media-object" src="images/j.jpg" alt="...">
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div
+          class="self user media "
+          style="display:none"
+        >
+          <div class="self media-body">
+            <h4 class="media-heading">我</h4>
+            <p>你好</p>
+          </div>
+          <div class="media-right">
+            <a href="#">
+              <img
+                class="media-object"
+                src="images/j.jpg"
+                alt="..."
+              >
+            </a>
+          </div>
+        </div>
+      </div>
 
-
-        </div>
-        <div class="panel-footer">
-            <input class="my_content" type="text" placeholder="请输入内容">
-            <input class="send btn btn-primary" type="button" value="发送">
-        </div>
 
     </div>
+    <div class="panel-footer">
+      <input
+        class="my_content"
+        type="text"
+        placeholder="请输入内容"
+      >
+      <input
+        class="send btn btn-primary"
+        type="button"
+        value="发送"
+      >
+    </div>
+
+  </div>
 </body>
 
 </html>
@@ -135,23 +167,24 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="lib/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-    $('.send').click(function() {
-        var cloneUser = $('.user').first().clone().show();
-        cloneUser.find("p").html($('.my_content').val());
-        cloneUser.appendTo('.main');
-        $.ajax({
-            data: 'post',
-            url: 'http://www.tuling123.com/openapi/api',
-            data: {
-                "key": "72a2b3ded0fb43aa8ebd27ad9d25ecf6",
-                "info": $('.my_content').val(),
-            },
-            success: function(data) {
-                // console.log(data);
-                var cloneChat = $('.chat').first().clone().show();
-                cloneChat.find("p").html(data.text);
-                cloneChat.appendTo('.main');
-            }
-        })
+  $('.send').click(function () {
+    var cloneUser = $('.user').first().clone().show();
+    cloneUser.find("p").html($('.my_content').val());
+    cloneUser.appendTo('.main');
+    $.ajax({
+      data: 'post',
+      url: 'http://www.tuling123.com/openapi/api',
+      data: {
+        "key": "72a2b3ded0fb43aa8ebd27ad9d25ecf6",
+        "info": $('.my_content').val(),
+      },
+      success: function (data) {
+        // console.log(data);
+        var cloneChat = $('.chat').first().clone().show();
+        cloneChat.find("p").html(data.text);
+        cloneChat.appendTo('.main');
+      }
     })
+  })
+
 </script>
