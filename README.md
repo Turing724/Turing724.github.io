@@ -8,7 +8,7 @@
 1. [vue2 如何监听一个对象的变化](https://github.com/Turing724/Turing724.github.io/issues/2)
 2. [Vue.js 运行机制全局概览-思维导图](https://github.com/Turing724/Turing724.github.io/issues/3)
 3. [如何在自定义组建中使用v-model](https://github.com/Turing724/Turing724.github.io/issues/7)
-4. [vue2 如何监听一个对象的变化](https://github.com/Turing724/Turing724.github.io/issues/2)
+4. [vue3 双向数据绑定 Proxy](https://github.com/Turing724/Turing724.github.io/issues/11)
 # React
 
 # 问题总结
